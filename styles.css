@@ -1,15 +1,46 @@
-.heading
+body
 {
-color: navy;
-background-color: rgb(158, 231, 225);
-font-weight: 700;
-font-family: 'Times New Roman', Times, serif;
-font-size: 50px;
-text-align: center;
+    background-color: lightcyan;
 }
 
-.wallpaper
+.heading
+{
+    color: navy;
+    background-color: aquamarine;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    width: 350px;
+    height: 70px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.image
 {
     height: 400px;
     width: auto;
+    border-radius: 10px;
+}
+
+.recipe_heading
+{
+    font-weight: bold;
+    color: navy;
+    margin-left: 25px;
+}
+
+.recipes
+{
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    background-color: aquamarine;
+    border: auto;
+    border-radius: 10px;
+    margin-left: 25px;
+    list-style-position: inside;
+    font-size: large;
 }
